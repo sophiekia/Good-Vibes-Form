@@ -7,6 +7,55 @@
 <body>
   <main>
     <h1 id="title">Good Vibes Form</h1>
+  <p>Tell us something positive that happened to you
+     today</p>
+
+<form action="/action_page.php">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname" value="Enter your name"><br><br> <!--double break to create spacing inbetween input fields-->
+  <label for="lname">Email:</label>
+  <input type="text" id="lname" name="lname" value="Enter your email  address"><br><br>
+  <label for="fname">On a scale of 1-10, how good was it?</label>
+  <input type="text" id="fname" name="fname" value="Enter a number between 1 and
+   10">
+  <br><br>
+  <label for="cars">Where did it happen?</label>
+    <select id="place" name="place">
+    <option value="home">At home</option>
+    <option value="work">At work</option>
+    <option value="restaurant">At a Restaurant</option>
+    <option value="gym">At the gym</option>
+  </select>
+  
+  <p>At what time of day did it happen?</p>
+  <input type="radio" id="morning" name="fav_language" value="MORNING">
+  <label for="html">Morning</label><br>
+  <input type="radio" id="afternoon" name="fav_language" value="AFTERNOON">
+  <label for="css">Afternoon</label><br>
+  <input type="radio" id="evening" name="fav_language" value="Evening">
+  <label for="javascript">Evening</label>
+  <br><br>
+  <p>What emotions did you experience? (Select all that apply)</p> 
+  <input type="checkbox" id="excited" name="excited" value="excited"> <!--allow user to select different emotions, more can be added if needed-->
+  <label for="vehicle1"> Excited</label><br>
+  <input type="checkbox" id="humbled" name="humbled" value="humbled">
+  <label for="vehicle2"> Humbled</label><br>
+  <input type="checkbox" id="elated" name="elated" value="elated">
+  <label for="vehicle3"> Elated</label><br>
+  <input type="checkbox" id="loved" name="loved" value="loved">
+  <label for="vehicle3"> Loved</label><br>
+  <input type="checkbox" id="enthusiastic" name="enthusiastic"
+   value="enthisiastic"> <label for="vehicle3"> Enthusiastic</label>
+  <br><br>
+  <p>Please describe your positive experience.</p>
+  <textarea name="message" style="width:400px; height:200px;"> Type your experience here....
+  </textarea> 
+</form>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 

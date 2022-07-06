@@ -9,9 +9,13 @@ body {
   }
   
   p {
-    font-size: 22px;
+    font-size: 18px;
   }
-  
+
+  form {
+    background-color: #e7e5e4;
+    padding: 10px;
+  }
   .form-rows {
     position: static;
     display: block;
